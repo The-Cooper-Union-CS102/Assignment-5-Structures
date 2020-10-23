@@ -92,6 +92,9 @@ int main() {
     pushList(list, 2);
     pushList(list, 3);
     assert(sumList(list) == 6);
+    popList(list);
+    popList(list);
+    popList(list);
     for (int n = 0; n < 100; n++) {
         pushList(list, n);
         assert(getList(list, n) == n);
