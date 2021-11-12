@@ -68,12 +68,12 @@ int popList(List *list) {
 }
 
 int getList(List *list, int index) {
-    // Assert index is greater than 0 and less than the list len
+    // Assert index is greater than or equal to 0 and less than the list len
     // Get the element at position 'index' in the list
 }
 
 void setList(List *list, int index, int value) {
-    // Assert index is greater than 0 and less than the list len
+    // Assert index is greater than or equal to 0 and less than the list len
     // Set the element at position 'index' to 'value'
 }
 
